@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706A2FD3214B22D000E23CF1 /* CalendarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 706A2FD1214B22D000E23CF1 /* CalendarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706A2FFB214B22DD00E23CF1 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FD9214B22DD00E23CF1 /* DayView.swift */; };
+		706A2FFC214B22DD00E23CF1 /* Array+Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FDB214B22DD00E23CF1 /* Array+Shift.swift */; };
+		706A2FFD214B22DD00E23CF1 /* Date+DateOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FDC214B22DD00E23CF1 /* Date+DateOnly.swift */; };
+		706A2FFE214B22DD00E23CF1 /* EventDescriptor+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FDD214B22DD00E23CF1 /* EventDescriptor+DateTools.swift */; };
+		706A2FFF214B22DD00E23CF1 /* Locale+24Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FDE214B22DD00E23CF1 /* Locale+24Hour.swift */; };
+		706A3000214B22DD00E23CF1 /* TimeChunk+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FDF214B22DD00E23CF1 /* TimeChunk+DateComponents.swift */; };
+		706A3001214B22DD00E23CF1 /* View+StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE0214B22DD00E23CF1 /* View+StackView.swift */; };
+		706A3002214B22DD00E23CF1 /* DayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE2214B22DD00E23CF1 /* DayHeaderView.swift */; };
+		706A3003214B22DD00E23CF1 /* DateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE4214B22DD00E23CF1 /* DateLabel.swift */; };
+		706A3004214B22DD00E23CF1 /* DayDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE5214B22DD00E23CF1 /* DayDateCell.swift */; };
+		706A3005214B22DD00E23CF1 /* DaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE6214B22DD00E23CF1 /* DaySelector.swift */; };
+		706A3006214B22DD00E23CF1 /* DaySymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE7214B22DD00E23CF1 /* DaySymbolsView.swift */; };
+		706A3007214B22DD00E23CF1 /* SwipeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE8214B22DD00E23CF1 /* SwipeLabelView.swift */; };
+		706A3008214B22DD00E23CF1 /* DayViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FE9214B22DD00E23CF1 /* DayViewState.swift */; };
+		706A3009214B22DD00E23CF1 /* CalendarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FEA214B22DD00E23CF1 /* CalendarStyle.swift */; };
+		706A300A214B22DD00E23CF1 /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FEB214B22DD00E23CF1 /* PagingScrollView.swift */; };
+		706A300B214B22DD00E23CF1 /* AllDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FED214B22DD00E23CF1 /* AllDayView.swift */; };
+		706A300C214B22DD00E23CF1 /* CurrentTimeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FEE214B22DD00E23CF1 /* CurrentTimeIndicator.swift */; };
+		706A300D214B22DD00E23CF1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FEF214B22DD00E23CF1 /* Event.swift */; };
+		706A300E214B22DD00E23CF1 /* EventDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF0214B22DD00E23CF1 /* EventDescriptor.swift */; };
+		706A300F214B22DD00E23CF1 /* EventLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF1214B22DD00E23CF1 /* EventLayoutAttributes.swift */; };
+		706A3010214B22DD00E23CF1 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF2214B22DD00E23CF1 /* EventView.swift */; };
+		706A3011214B22DD00E23CF1 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF3214B22DD00E23CF1 /* Generator.swift */; };
+		706A3012214B22DD00E23CF1 /* ReusePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF4214B22DD00E23CF1 /* ReusePool.swift */; };
+		706A3013214B22DD00E23CF1 /* ScrollSyncronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF5214B22DD00E23CF1 /* ScrollSyncronizer.swift */; };
+		706A3014214B22DD00E23CF1 /* TimelineContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF6214B22DD00E23CF1 /* TimelineContainer.swift */; };
+		706A3015214B22DD00E23CF1 /* TimelinePagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF7214B22DD00E23CF1 /* TimelinePagerView.swift */; };
+		706A3016214B22DD00E23CF1 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF8214B22DD00E23CF1 /* TimelineView.swift */; };
+		706A3017214B22DD00E23CF1 /* EventDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FF9214B22DD00E23CF1 /* EventDataSource.swift */; };
+		706A3018214B22DD00E23CF1 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A2FFA214B22DD00E23CF1 /* DayViewController.swift */; };
+		706A302A214B24BA00E23CF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A301A214B24BA00E23CF1 /* Constants.swift */; };
+		706A302B214B24BA00E23CF1 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A301B214B24BA00E23CF1 /* Date+Bundle.swift */; };
+		706A302C214B24BA00E23CF1 /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A301C214B24BA00E23CF1 /* Date+Comparators.swift */; };
+		706A302D214B24BA00E23CF1 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A301D214B24BA00E23CF1 /* Date+Components.swift */; };
+		706A302E214B24BA00E23CF1 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A301E214B24BA00E23CF1 /* Date+Format.swift */; };
+		706A302F214B24BA00E23CF1 /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A301F214B24BA00E23CF1 /* Date+Inits.swift */; };
+		706A3030214B24BA00E23CF1 /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3020214B24BA00E23CF1 /* Date+Manipulations.swift */; };
+		706A3031214B24BA00E23CF1 /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3021214B24BA00E23CF1 /* Date+TimeAgo.swift */; };
+		706A3032214B24BA00E23CF1 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 706A3022214B24BA00E23CF1 /* DateTools.bundle */; };
+		706A3033214B24BA00E23CF1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3023214B24BA00E23CF1 /* Enums.swift */; };
+		706A3034214B24BA00E23CF1 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3024214B24BA00E23CF1 /* Integer+DateTools.swift */; };
+		706A3035214B24BA00E23CF1 /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3025214B24BA00E23CF1 /* TimeChunk.swift */; };
+		706A3036214B24BA00E23CF1 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3026214B24BA00E23CF1 /* TimePeriod.swift */; };
+		706A3037214B24BA00E23CF1 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3027214B24BA00E23CF1 /* TimePeriodChain.swift */; };
+		706A3038214B24BA00E23CF1 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3028214B24BA00E23CF1 /* TimePeriodCollection.swift */; };
+		706A3039214B24BA00E23CF1 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A3029214B24BA00E23CF1 /* TimePeriodGroup.swift */; };
+		706A3040214B24CC00E23CF1 /* NeonAnchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A303A214B24CC00E23CF1 /* NeonAnchorable.swift */; };
+		706A3041214B24CC00E23CF1 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A303B214B24CC00E23CF1 /* Neon.swift */; };
+		706A3042214B24CC00E23CF1 /* NeonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A303C214B24CC00E23CF1 /* NeonExtensions.swift */; };
+		706A3043214B24CC00E23CF1 /* NeonFrameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A303D214B24CC00E23CF1 /* NeonFrameable.swift */; };
+		706A3044214B24CC00E23CF1 /* NeonAlignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A303E214B24CC00E23CF1 /* NeonAlignable.swift */; };
+		706A3045214B24CC00E23CF1 /* NeonGroupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A303F214B24CC00E23CF1 /* NeonGroupable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706A2FCE214B22D000E23CF1 /* CalendarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A2FD1214B22D000E23CF1 /* CalendarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarKit.h; sourceTree = "<group>"; };
+		706A2FD2214B22D000E23CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706A2FD9214B22DD00E23CF1 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		706A2FDB214B22DD00E23CF1 /* Array+Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shift.swift"; sourceTree = "<group>"; };
+		706A2FDC214B22DD00E23CF1 /* Date+DateOnly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DateOnly.swift"; sourceTree = "<group>"; };
+		706A2FDD214B22DD00E23CF1 /* EventDescriptor+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EventDescriptor+DateTools.swift"; sourceTree = "<group>"; };
+		706A2FDE214B22DD00E23CF1 /* Locale+24Hour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+24Hour.swift"; sourceTree = "<group>"; };
+		706A2FDF214B22DD00E23CF1 /* TimeChunk+DateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeChunk+DateComponents.swift"; sourceTree = "<group>"; };
+		706A2FE0214B22DD00E23CF1 /* View+StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+StackView.swift"; sourceTree = "<group>"; };
+		706A2FE2214B22DD00E23CF1 /* DayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayHeaderView.swift; sourceTree = "<group>"; };
+		706A2FE4214B22DD00E23CF1 /* DateLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateLabel.swift; sourceTree = "<group>"; };
+		706A2FE5214B22DD00E23CF1 /* DayDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayDateCell.swift; sourceTree = "<group>"; };
+		706A2FE6214B22DD00E23CF1 /* DaySelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaySelector.swift; sourceTree = "<group>"; };
+		706A2FE7214B22DD00E23CF1 /* DaySymbolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaySymbolsView.swift; sourceTree = "<group>"; };
+		706A2FE8214B22DD00E23CF1 /* SwipeLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeLabelView.swift; sourceTree = "<group>"; };
+		706A2FE9214B22DD00E23CF1 /* DayViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewState.swift; sourceTree = "<group>"; };
+		706A2FEA214B22DD00E23CF1 /* CalendarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarStyle.swift; sourceTree = "<group>"; };
+		706A2FEB214B22DD00E23CF1 /* PagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
+		706A2FED214B22DD00E23CF1 /* AllDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDayView.swift; sourceTree = "<group>"; };
+		706A2FEE214B22DD00E23CF1 /* CurrentTimeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTimeIndicator.swift; sourceTree = "<group>"; };
+		706A2FEF214B22DD00E23CF1 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		706A2FF0214B22DD00E23CF1 /* EventDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptor.swift; sourceTree = "<group>"; };
+		706A2FF1214B22DD00E23CF1 /* EventLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLayoutAttributes.swift; sourceTree = "<group>"; };
+		706A2FF2214B22DD00E23CF1 /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		706A2FF3214B22DD00E23CF1 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		706A2FF4214B22DD00E23CF1 /* ReusePool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusePool.swift; sourceTree = "<group>"; };
+		706A2FF5214B22DD00E23CF1 /* ScrollSyncronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSyncronizer.swift; sourceTree = "<group>"; };
+		706A2FF6214B22DD00E23CF1 /* TimelineContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineContainer.swift; sourceTree = "<group>"; };
+		706A2FF7214B22DD00E23CF1 /* TimelinePagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePagerView.swift; sourceTree = "<group>"; };
+		706A2FF8214B22DD00E23CF1 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		706A2FF9214B22DD00E23CF1 /* EventDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDataSource.swift; sourceTree = "<group>"; };
+		706A2FFA214B22DD00E23CF1 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		706A301A214B24BA00E23CF1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		706A301B214B24BA00E23CF1 /* Date+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Bundle.swift"; sourceTree = "<group>"; };
+		706A301C214B24BA00E23CF1 /* Date+Comparators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Comparators.swift"; sourceTree = "<group>"; };
+		706A301D214B24BA00E23CF1 /* Date+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
+		706A301E214B24BA00E23CF1 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		706A301F214B24BA00E23CF1 /* Date+Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Inits.swift"; sourceTree = "<group>"; };
+		706A3020214B24BA00E23CF1 /* Date+Manipulations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Manipulations.swift"; sourceTree = "<group>"; };
+		706A3021214B24BA00E23CF1 /* Date+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
+		706A3022214B24BA00E23CF1 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		706A3023214B24BA00E23CF1 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		706A3024214B24BA00E23CF1 /* Integer+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+DateTools.swift"; sourceTree = "<group>"; };
+		706A3025214B24BA00E23CF1 /* TimeChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChunk.swift; sourceTree = "<group>"; };
+		706A3026214B24BA00E23CF1 /* TimePeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriod.swift; sourceTree = "<group>"; };
+		706A3027214B24BA00E23CF1 /* TimePeriodChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodChain.swift; sourceTree = "<group>"; };
+		706A3028214B24BA00E23CF1 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCollection.swift; sourceTree = "<group>"; };
+		706A3029214B24BA00E23CF1 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodGroup.swift; sourceTree = "<group>"; };
+		706A303A214B24CC00E23CF1 /* NeonAnchorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAnchorable.swift; sourceTree = "<group>"; };
+		706A303B214B24CC00E23CF1 /* Neon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
+		706A303C214B24CC00E23CF1 /* NeonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonExtensions.swift; sourceTree = "<group>"; };
+		706A303D214B24CC00E23CF1 /* NeonFrameable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonFrameable.swift; sourceTree = "<group>"; };
+		706A303E214B24CC00E23CF1 /* NeonAlignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAlignable.swift; sourceTree = "<group>"; };
+		706A303F214B24CC00E23CF1 /* NeonGroupable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonGroupable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A2FCB214B22D000E23CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706A2FC4214B22D000E23CF1 = {
+			isa = PBXGroup;
+			children = (
+				706A2FD0214B22D000E23CF1 /* CalendarKit */,
+				706A2FCF214B22D000E23CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A2FCF214B22D000E23CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A2FCE214B22D000E23CF1 /* CalendarKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A2FD0214B22D000E23CF1 /* CalendarKit */ = {
+			isa = PBXGroup;
+			children = (
+				706A303B214B24CC00E23CF1 /* Neon.swift */,
+				706A303E214B24CC00E23CF1 /* NeonAlignable.swift */,
+				706A303A214B24CC00E23CF1 /* NeonAnchorable.swift */,
+				706A303C214B24CC00E23CF1 /* NeonExtensions.swift */,
+				706A303D214B24CC00E23CF1 /* NeonFrameable.swift */,
+				706A303F214B24CC00E23CF1 /* NeonGroupable.swift */,
+				706A3019214B24BA00E23CF1 /* DateTools */,
+				706A2FEA214B22DD00E23CF1 /* CalendarStyle.swift */,
+				706A2FD9214B22DD00E23CF1 /* DayView.swift */,
+				706A2FFA214B22DD00E23CF1 /* DayViewController.swift */,
+				706A2FE9214B22DD00E23CF1 /* DayViewState.swift */,
+				706A2FF9214B22DD00E23CF1 /* EventDataSource.swift */,
+				706A2FDA214B22DD00E23CF1 /* Extensions */,
+				706A2FE1214B22DD00E23CF1 /* Header */,
+				706A2FEB214B22DD00E23CF1 /* PagingScrollView.swift */,
+				706A2FEC214B22DD00E23CF1 /* Timeline */,
+				706A2FD1214B22D000E23CF1 /* CalendarKit.h */,
+				706A2FD2214B22D000E23CF1 /* Info.plist */,
+			);
+			path = CalendarKit;
+			sourceTree = "<group>";
+		};
+		706A2FDA214B22DD00E23CF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				706A2FDB214B22DD00E23CF1 /* Array+Shift.swift */,
+				706A2FDC214B22DD00E23CF1 /* Date+DateOnly.swift */,
+				706A2FDD214B22DD00E23CF1 /* EventDescriptor+DateTools.swift */,
+				706A2FDE214B22DD00E23CF1 /* Locale+24Hour.swift */,
+				706A2FDF214B22DD00E23CF1 /* TimeChunk+DateComponents.swift */,
+				706A2FE0214B22DD00E23CF1 /* View+StackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		706A2FE1214B22DD00E23CF1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				706A2FE2214B22DD00E23CF1 /* DayHeaderView.swift */,
+				706A2FE3214B22DD00E23CF1 /* DaySelector */,
+				706A2FE7214B22DD00E23CF1 /* DaySymbolsView.swift */,
+				706A2FE8214B22DD00E23CF1 /* SwipeLabelView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		706A2FE3214B22DD00E23CF1 /* DaySelector */ = {
+			isa = PBXGroup;
+			children = (
+				706A2FE4214B22DD00E23CF1 /* DateLabel.swift */,
+				706A2FE5214B22DD00E23CF1 /* DayDateCell.swift */,
+				706A2FE6214B22DD00E23CF1 /* DaySelector.swift */,
+			);
+			path = DaySelector;
+			sourceTree = "<group>";
+		};
+		706A2FEC214B22DD00E23CF1 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				706A2FED214B22DD00E23CF1 /* AllDayView.swift */,
+				706A2FEE214B22DD00E23CF1 /* CurrentTimeIndicator.swift */,
+				706A2FEF214B22DD00E23CF1 /* Event.swift */,
+				706A2FF0214B22DD00E23CF1 /* EventDescriptor.swift */,
+				706A2FF1214B22DD00E23CF1 /* EventLayoutAttributes.swift */,
+				706A2FF2214B22DD00E23CF1 /* EventView.swift */,
+				706A2FF3214B22DD00E23CF1 /* Generator.swift */,
+				706A2FF4214B22DD00E23CF1 /* ReusePool.swift */,
+				706A2FF5214B22DD00E23CF1 /* ScrollSyncronizer.swift */,
+				706A2FF6214B22DD00E23CF1 /* TimelineContainer.swift */,
+				706A2FF7214B22DD00E23CF1 /* TimelinePagerView.swift */,
+				706A2FF8214B22DD00E23CF1 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		706A3019214B24BA00E23CF1 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				706A301A214B24BA00E23CF1 /* Constants.swift */,
+				706A301B214B24BA00E23CF1 /* Date+Bundle.swift */,
+				706A301C214B24BA00E23CF1 /* Date+Comparators.swift */,
+				706A301D214B24BA00E23CF1 /* Date+Components.swift */,
+				706A301E214B24BA00E23CF1 /* Date+Format.swift */,
+				706A301F214B24BA00E23CF1 /* Date+Inits.swift */,
+				706A3020214B24BA00E23CF1 /* Date+Manipulations.swift */,
+				706A3021214B24BA00E23CF1 /* Date+TimeAgo.swift */,
+				706A3022214B24BA00E23CF1 /* DateTools.bundle */,
+				706A3023214B24BA00E23CF1 /* Enums.swift */,
+				706A3024214B24BA00E23CF1 /* Integer+DateTools.swift */,
+				706A3025214B24BA00E23CF1 /* TimeChunk.swift */,
+				706A3026214B24BA00E23CF1 /* TimePeriod.swift */,
+				706A3027214B24BA00E23CF1 /* TimePeriodChain.swift */,
+				706A3028214B24BA00E23CF1 /* TimePeriodCollection.swift */,
+				706A3029214B24BA00E23CF1 /* TimePeriodGroup.swift */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		706A2FC9214B22D000E23CF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A2FD3214B22D000E23CF1 /* CalendarKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		706A2FCD214B22D000E23CF1 /* CalendarKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A2FD6214B22D000E23CF1 /* Build configuration list for PBXNativeTarget "CalendarKit" */;
+			buildPhases = (
+				706A2FC9214B22D000E23CF1 /* Headers */,
+				706A2FCA214B22D000E23CF1 /* Sources */,
+				706A2FCB214B22D000E23CF1 /* Frameworks */,
+				706A2FCC214B22D000E23CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarKit;
+			productName = CalendarKit;
+			productReference = 706A2FCE214B22D000E23CF1 /* CalendarKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A2FC5214B22D000E23CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = KaiZen;
+				TargetAttributes = {
+					706A2FCD214B22D000E23CF1 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 706A2FC8214B22D000E23CF1 /* Build configuration list for PBXProject "CalendarKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 706A2FC4214B22D000E23CF1;
+			productRefGroup = 706A2FCF214B22D000E23CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A2FCD214B22D000E23CF1 /* CalendarKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A2FCC214B22D000E23CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A3032214B24BA00E23CF1 /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A2FCA214B22D000E23CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A3011214B22DD00E23CF1 /* Generator.swift in Sources */,
+				706A3015214B22DD00E23CF1 /* TimelinePagerView.swift in Sources */,
+				706A3034214B24BA00E23CF1 /* Integer+DateTools.swift in Sources */,
+				706A3017214B22DD00E23CF1 /* EventDataSource.swift in Sources */,
+				706A3002214B22DD00E23CF1 /* DayHeaderView.swift in Sources */,
+				706A300A214B22DD00E23CF1 /* PagingScrollView.swift in Sources */,
+				706A3008214B22DD00E23CF1 /* DayViewState.swift in Sources */,
+				706A3043214B24CC00E23CF1 /* NeonFrameable.swift in Sources */,
+				706A3001214B22DD00E23CF1 /* View+StackView.swift in Sources */,
+				706A3045214B24CC00E23CF1 /* NeonGroupable.swift in Sources */,
+				706A3033214B24BA00E23CF1 /* Enums.swift in Sources */,
+				706A3030214B24BA00E23CF1 /* Date+Manipulations.swift in Sources */,
+				706A3005214B22DD00E23CF1 /* DaySelector.swift in Sources */,
+				706A3037214B24BA00E23CF1 /* TimePeriodChain.swift in Sources */,
+				706A3040214B24CC00E23CF1 /* NeonAnchorable.swift in Sources */,
+				706A3004214B22DD00E23CF1 /* DayDateCell.swift in Sources */,
+				706A302A214B24BA00E23CF1 /* Constants.swift in Sources */,
+				706A300D214B22DD00E23CF1 /* Event.swift in Sources */,
+				706A300F214B22DD00E23CF1 /* EventLayoutAttributes.swift in Sources */,
+				706A3018214B22DD00E23CF1 /* DayViewController.swift in Sources */,
+				706A2FFF214B22DD00E23CF1 /* Locale+24Hour.swift in Sources */,
+				706A3006214B22DD00E23CF1 /* DaySymbolsView.swift in Sources */,
+				706A302B214B24BA00E23CF1 /* Date+Bundle.swift in Sources */,
+				706A302E214B24BA00E23CF1 /* Date+Format.swift in Sources */,
+				706A300E214B22DD00E23CF1 /* EventDescriptor.swift in Sources */,
+				706A2FFC214B22DD00E23CF1 /* Array+Shift.swift in Sources */,
+				706A302F214B24BA00E23CF1 /* Date+Inits.swift in Sources */,
+				706A302C214B24BA00E23CF1 /* Date+Comparators.swift in Sources */,
+				706A3000214B22DD00E23CF1 /* TimeChunk+DateComponents.swift in Sources */,
+				706A3016214B22DD00E23CF1 /* TimelineView.swift in Sources */,
+				706A3010214B22DD00E23CF1 /* EventView.swift in Sources */,
+				706A2FFE214B22DD00E23CF1 /* EventDescriptor+DateTools.swift in Sources */,
+				706A302D214B24BA00E23CF1 /* Date+Components.swift in Sources */,
+				706A3042214B24CC00E23CF1 /* NeonExtensions.swift in Sources */,
+				706A3036214B24BA00E23CF1 /* TimePeriod.swift in Sources */,
+				706A3039214B24BA00E23CF1 /* TimePeriodGroup.swift in Sources */,
+				706A3041214B24CC00E23CF1 /* Neon.swift in Sources */,
+				706A3012214B22DD00E23CF1 /* ReusePool.swift in Sources */,
+				706A3031214B24BA00E23CF1 /* Date+TimeAgo.swift in Sources */,
+				706A3003214B22DD00E23CF1 /* DateLabel.swift in Sources */,
+				706A3014214B22DD00E23CF1 /* TimelineContainer.swift in Sources */,
+				706A2FFB214B22DD00E23CF1 /* DayView.swift in Sources */,
+				706A300B214B22DD00E23CF1 /* AllDayView.swift in Sources */,
+				706A300C214B22DD00E23CF1 /* CurrentTimeIndicator.swift in Sources */,
+				706A3013214B22DD00E23CF1 /* ScrollSyncronizer.swift in Sources */,
+				706A3038214B24BA00E23CF1 /* TimePeriodCollection.swift in Sources */,
+				706A3044214B24CC00E23CF1 /* NeonAlignable.swift in Sources */,
+				706A3009214B22DD00E23CF1 /* CalendarStyle.swift in Sources */,
+				706A3035214B24BA00E23CF1 /* TimeChunk.swift in Sources */,
+				706A2FFD214B22DD00E23CF1 /* Date+DateOnly.swift in Sources */,
+				706A3007214B22DD00E23CF1 /* SwipeLabelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706A2FD4214B22D000E23CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		706A2FD5214B22D000E23CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		706A2FD7214B22D000E23CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CalendarKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.CalendarKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706A2FD8214B22D000E23CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CalendarKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.CalendarKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A2FC8214B22D000E23CF1 /* Build configuration list for PBXProject "CalendarKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A2FD4214B22D000E23CF1 /* Debug */,
+				706A2FD5214B22D000E23CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A2FD6214B22D000E23CF1 /* Build configuration list for PBXNativeTarget "CalendarKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A2FD7214B22D000E23CF1 /* Debug */,
+				706A2FD8214B22D000E23CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A2FC5214B22D000E23CF1 /* Project object */;
+}
